@@ -22,6 +22,11 @@ body {
   font-size: 8rem;
 }
 
+#focus {
+  padding-bottom: 1px;
+  border-bottom: 1px solid white;
+}
+
 h1 {
   margin-bottom: 3rem;
 }
