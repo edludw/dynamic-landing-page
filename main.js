@@ -38,7 +38,7 @@ function setBg() {
   } else if (hour <= 18) {
     document.body.style.backgroundImage = "url('afternoon.jpg')";
     greeting.textContent = "Good Afternoon";
-  } else {
+  } else if (hour > 18 || hour >= 0) {
     document.body.style.backgroundImage = "url('night.jpg')";
     greeting.textContent = "Good Evening";
     document.body.style.backgroundPosition = "center";
