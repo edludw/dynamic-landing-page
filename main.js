@@ -33,13 +33,13 @@ function setBg() {
     hour = today.getHours();
 
   if (hour >= 5 && hour <= 12) {
-    document.body.style.backgroundImage = "url('/morning.jpg')";
+    document.body.style.backgroundImage = "url('morning.jpg')";
     greeting.textContent = "Good Morning";
   } else if (hour <= 18) {
-    document.body.style.backgroundImage = "url('/afternoon.jpg')";
+    document.body.style.backgroundImage = "url('afternoon.jpg')";
     greeting.textContent = "Good Afternoon";
   } else {
-    document.body.style.backgroundImage = "url('/night.jpg')";
+    document.body.style.backgroundImage = "url('night.jpg')";
     greeting.textContent = "Good Evening";
     document.body.style.backgroundPosition = "center";
   }
