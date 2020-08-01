@@ -43,7 +43,7 @@ function setBg() {
     greeting.textContent = "Good Evening";
     document.body.style.backgroundPosition = "center";
   }
-
+  console.log("An hour has passed");
   setTimeout(setBg, 36000000);
 }
 
