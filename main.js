@@ -43,6 +43,8 @@ function setBg() {
     greeting.textContent = "Good Evening";
     document.body.style.backgroundPosition = "center";
   }
+
+  setTimeout(setBg, 36000000);
 }
 
 // get Name
